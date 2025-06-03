@@ -77,6 +77,12 @@ button.addEventListener('click', () => {
     button.style.color = 'black'
 })
 
+button.onmouseover = () => {
+
+    headingThree.textContent = "Fresh and Clean";
+    headingThree.style.color = "red"
+}
+
 const vegetableButton = document.getElementById('buy-vegetables');
 
 vegetableButton.style.background = 'none';
@@ -95,3 +101,9 @@ vegetableButton.addEventListener('click', () => {
     vegetableButton.style.backgroundColor = 'white'
     vegetableButton.style.color = 'black'
 })
+
+vegetableButton.onmouseover = () => {
+
+    headingVegetables.textContent = "Fresh and Clean";
+    headingVegetables.style.color = "red"
+}
