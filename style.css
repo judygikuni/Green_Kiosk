@@ -6,10 +6,14 @@
 #fruits_image{
     height: 45vh;
     padding: 50px;
-    margin-left: 90vh;
+    margin-left: 20vh;
 }
 
 #vegetables_picture{
-    height: 45vh;
-    margin-left: 90vh;
+    height: 50vh;
+    margin-left: 30vh;
+}
+
+#fruits_vegatable{
+    display: flex;
 }
